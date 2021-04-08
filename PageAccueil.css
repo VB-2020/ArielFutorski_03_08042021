@@ -1,0 +1,36 @@
+@font-face{
+    font-family: "Shrikhand";
+
+    src: url("./Shrikhand/Shrikhand-Regular.ttf") format("truetype");
+
+    font-family: "Roboto";
+
+    src: url("./Roboto/Roboto-Black.ttf") format("truetype");
+    src: url("./Roboto/Roboto-Regular.ttf") format("truetype");
+}
+
+.location
+{
+    text-align: center;
+}
+
+.Restaurant
+{
+    background-color: #f6f6f6;
+}
+
+.CarreN
+{
+    position: relative;
+  text-align: center;
+  color: #73cbb5;
+  background-color: #ffffff;
+  
+}
+.topright
+{
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    background-color: #99e2d0;
+}

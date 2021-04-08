@@ -1,0 +1,26 @@
+@font-face{
+    font-family: "Shrikhand";
+
+    src: url("./Shrikhand/Shrikhand-Regular.ttf") format("truetype");
+
+    font-family: "Roboto";
+
+    src: url("./Roboto/Roboto-Black.ttf") format("truetype");
+    src: url("./Roboto/Roboto-Regular.ttf") format("truetype");
+}
+
+.menus
+{
+    background-color: grey;
+}
+
+.entrees
+{
+   background-color: white;
+}
+
+.piedsDP
+{
+    color: white;
+    background-color: black;
+}
