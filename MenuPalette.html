@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <title>La palette du goût</title>
     <link rel="stylesheet" href="PageAccueil.css" />
-    <link href="MenuPalette.css" rel="MenuPalette"  media="all and (max-width:480px)" />
+    <link href="MenuPalette.css" rel="MenuPalette"  />
     <script src="https://kit.fontawesome.com/684c4b6e85.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.google.com/"/>
     
@@ -14,11 +14,9 @@
 
 <body>
     <div class="main_wrapper">
-        <header>
+        <header class="heading">
             <figure>
-                
-               
-                    <div>   
+                  <div>   
                         <button onclick="window.location.href='PageAccueil.html';">  
                    
                         <i class="fas fa-arrow-left"> </i>
@@ -27,7 +25,7 @@
                       
                     </div>
                 
-                <img src="/Users/ArielFutorski/Documents/GitHub/P3/Maquettes Ohmyfood/images/logo/ohmyfood.png" alt="logo" />
+                <img class="imglogo" src="/Users/ArielFutorski/Documents/GitHub/P3/Maquettes Ohmyfood/images/logo/ohmyfood.png" alt="logo" />
              </figure>
 
         </header>
@@ -40,97 +38,84 @@
 
         <section class="menus">
             <h1>La palette du goût <button> <i class="far fa-heart"></i></button></h1>
+            <h1>ENTRÉES</h1>
 
-            
-                <h1>ENTRÉES</h1>
             <article class="entrees" >
-                <table >
-                    <caption>Fricassé d'escargot</caption> 
-                    <tr>
-                     <th>Au pimet d'espelette</th>
-                        <td>25€</td>
-                    </tr>
-                </table>
+                <div>
+                    <div>Fricassé d'escargot</div> 
+                    <div>Au pimet d'espelette</div>
+                    <div>25€</div>
+                </div>
             </article>
 
             <article class="entrees" >
-                <table >
-                    <caption>Foie gras de canard mi-cuit</caption> 
-                    <tr>
-                     <th>Et ses copeaux de truffe noire</th>
-                        <td>35€</td>
-                    </tr>
-                </table>
+                <div >
+                    <div>Foie gras de canard mi-cuit</div> 
+                    <div>Et ses copeaux de truffe noire</div>
+                    <div>35€</div>
+                    
+                </div>
             </article>
+
             <article class="entrees" >
-                <table >
-                    <caption>Oeuf au plat</caption> 
-                    <tr>
-                     <th>Assaisonné à la truffe sur lit de...</th>
-                        <td>20€</td>
-                    </tr>
-                </table>
+                <div>
+                    <div>Oeuf au plat</div> 
+                    <div>Assaisonné à la truffe sur lit de...</div>
+                    <div>20€</div>
+                </div>
             </article>
 
             <h1>PLATS</h1>
 
             <article class="entrees" >
-                <table >
-                    <caption>Filet de boeuf aux herbes</caption> 
-                    <tr>
-                     <th>Accompagné de sa ribambelle de légu...</th>
-                        <td>40€</td>
-                    </tr>
-                </table>
+                <div>
+                    <div>Filet de boeuf aux herbes</div> 
+                    <div>Accompagné de sa ribambelle de légu...</div>
+                    <div>40€</div>
+                    
+                </div>
             </article>
+
             <article class="entrees" >
-                <table >
-                    <caption>Parmentier de queue de boeuf </caption> 
-                    <tr>
-                     <th>À la truffe noire sur sa purée de panais </th>
-                        <td>35€</td>
-                    </tr>
-                </table>
+                <div>
+                    <div>Parmentier de queue de boeuf </div> 
+                    <div>À la truffe noire sur sa purée de panais </div>
+                    <div>35€</div>
+                </div>
             </article>
+
             <article class="entrees" >
-                <table >
-                    <caption>Filet de Turbot </caption> 
-                    <tr>
-                     <th>Aux agrumes</th>
-                        <td>44€</td>
-                    </tr>
-                </table>
+                <div >
+                    <div>Filet de Turbot </div> 
+                    <div>Aux agrumes</div>
+                    <div>44€</div>
+                </div>
             </article>
 
             <h1>DESSERTS</h1>
 
-            
             <article class="entrees" >
-                <table >
-                    <caption>Paris-Brest</caption> 
-                    <tr>
-                     <th>Revisité</th>
-                        <td>18€</td>
-                    </tr>
-                </table>
+                <div >
+                    <div>Paris-Brest</div>
+                    <div>Revisité</div>
+                    <div>18€</div>
+                </div>
             </article>
+
             <article class="entrees" >
-                <table >
-                    <caption>Macaron au chocolat d'exeption </caption> 
-                    <tr>
-                     <th>Et glace à la vanille de Madagascar</th>
-                        <td>22€</td>
-                    </tr>
-                </table>
+                <div>
+                    <div>Macaron au chocolat d'exeption </div> 
+                    <div>Et glace à la vanille de Madagascar</div>
+                    <div>22€</div>
+                </div>
             </article>
+
             <article class="entrees" >
-                <table >
-                    <caption>Mousse au chocolat</caption> 
-                    <tr>
-                     <th>Au piment d'espelette et à la truffe noire </th>
-                        <td>23€</td>
-                    </tr>
-                </table>
+                <div >
+                    <div>Mousse au chocolat</div> 
+                    <div>Au piment d'espelette et à la truffe noire </div>
+                    <div>23€</div>
+                </div>
             </article>
 
             <div>
@@ -141,12 +126,12 @@
    </div>
 
    <footer class="piedsDP">
-    <h3>Ohmyfood</h3>
-    <ul>
-       <li><i class="fas fa-utensils"></i>Proposer un restaurant </li>
-       <li><i class="fas fa-hands-helping"></i>Devenir partenaire</li>
-       <li>Mentions légales </li>
-       <li><a href="mailto:contact@ohmyfood.com"> Contact </a></li>
-    </ul>
- </footer>
+      <h3>Ohmyfood</h3>
+      <ul>
+         <li><i class="fas fa-utensils"></i>Proposer un restaurant </li>
+         <li><i class="fas fa-hands-helping"></i>Devenir partenaire</li>
+         <li>Mentions légales </li>
+         <li><a href="mailto:contact@ohmyfood.com"> Contact </a></li>
+       </ul>
+   </footer>
 </body>
