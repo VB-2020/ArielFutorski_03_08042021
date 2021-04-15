@@ -3,10 +3,20 @@
 
     src: url("./Shrikhand/Shrikhand-Regular.ttf") format("truetype");
 
+
+}
+
+@font-face {
+   
+
     font-family: "Roboto";
 
     src: url("./Roboto/Roboto-Black.ttf") format("truetype");
     src: url("./Roboto/Roboto-Regular.ttf") format("truetype");
+}
+
+.main {
+    margin: 0;
 }
 
 .heading {

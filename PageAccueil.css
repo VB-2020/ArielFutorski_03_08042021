@@ -3,10 +3,20 @@
 
     src: url("./Shrikhand/Shrikhand-Regular.ttf") format("truetype");
 
+
+}
+
+@font-face {
+  
+
     font-family: "Roboto";
 
     src: url("./Roboto/Roboto-Black.ttf") format("truetype");
     src: url("./Roboto/Roboto-Regular.ttf") format("truetype");
+}
+
+.main {
+    margin: 0;
 }
 
 .main_wrapper{
@@ -20,11 +30,11 @@
     justify-content: center;
 }
 
-.heading, .selection, .Menus {
+.heading, .selecteur_fonctions, .menus {
     background-color: #ffffff;
 }
 
-.btnexplorer, .Restaurant, .actions {
+.btn_explorer, .restaurants, .fonctions, .main {
     background-color: #f6f6f6;
 }
 
@@ -48,7 +58,7 @@
     box-shadow: inset 1px 4px 4px #d4d4d4;
 }
 
-.iconlocation
+.icon_location
 {
     margin-right: 35px;
 }
@@ -59,15 +69,16 @@
     padding-right: 7px;
 }
 
-.btnexplorer {
+.btn_explorer {
     display: grid;
     text-align: center;
+    margin: 2px;
 }
 
 .explorer1 {
     margin-bottom: 5px;
     font-family: 'Roboto-black';
-    font-size: 1.7em;
+    font-size: 1.4em;
     padding-top: 11px;
 }
 
@@ -79,7 +90,7 @@
     
 }
 
-.btnexplorerestos {
+.btn_explore_restos {
     background-color: #b160db;
     color: white;
     font-family: 'Roboto';
@@ -92,11 +103,20 @@
     box-shadow: 0px 3px 10px 8px #d6d6d6;
 }
 
+.selecteur_fonctions {
+    padding-bottom: 40px;
+    padding-left: 15px;
+}
+
+.restaurants {
+    margin: 20px;
+}
+
 h1 {
     font-family: 'Roboto-black';
     font-size: 1.6em;
     padding-left: 5px;
-    padding-top: 40px;
+    padding-top: 24px;
     padding-bottom: 5px;
 }
 
@@ -124,7 +144,7 @@ ul.list > li {
 
 }
 
-.actions {
+.fonctions {
     border-radius: 20px 20px 20px 20px;
     display: flex;
     height: 35px;
@@ -140,7 +160,7 @@ div > i {
     padding-right: 10px;
 }
 
-.actions > div {
+.fonctions > div {
     font-size: 1em;
     font-family: 'Roboto';
 }
@@ -154,10 +174,11 @@ a > img {
 }
 
 
-.Menus {
+.menus {
     width: 100%;
     margin-bottom: 30px;
     border-radius: 20px 20px 20px 20px;
+    height: 317px;
     
 }
 
@@ -173,7 +194,7 @@ figure {
 }
 
 
-.txtnouveau {
+.txt_nouveau {
    
     background-color: #99e2d0;
     width: 30%;
@@ -190,7 +211,7 @@ figcaption {
     
 }
 
-.heartbtn > button {
+.heart_btn > button {
     font-size: 1.6em;
     border: none;
     background-color: white;
@@ -199,20 +220,24 @@ figcaption {
     
 }
 
+.btn_rebel {
+    padding-left: 38px;
+}
 
-.txtmenus {
+
+.txt_menus {
     padding-left: 10px;
 }
 
-.txtmenus > h2{
+.txt_menus > h2{
     font-family: 'Roboto-black';
-    font-size: 1.2em;
+    font-size: 1em;
     margin-bottom: -10px;
 }
 
-.txtmenus > h3{
+.txt_menus > h3{
     font-family: 'Roboto';
-    font-size: 1.1em;
+    font-size: 1em;
     color: #606060;
 }
 
@@ -223,7 +248,7 @@ figcaption {
 .piedsDP {
     background-color: #353535;
     color: white;
-    padding-left: 10px;
+    padding-left: 33px;
     padding-top: 5px;
     padding-bottom: 15px;
 }
